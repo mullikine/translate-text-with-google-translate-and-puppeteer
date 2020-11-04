@@ -1,0 +1,52 @@
+Info 0    [17:3:56.32] Starting TS Server
+Info 1    [17:3:56.33] Version: 3.2.2
+Info 2    [17:3:56.33] Arguments: /usr/local/bin/node /usr/local/bin/tsserver --logFile /home/shane/var/smulliga/source/git/sonyarianto/translate-text-with-google-translate-and-puppeteer/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/343d3a2605aa7d1eeaf1a059c34c79c8/tscancellation*
+Info 3    [17:3:56.33] Platform: linux NodeVersion: 12 CaseSensitive: true
+Info 4    [17:3:56.339] Search path: /home/shane/var/smulliga/source/git/sonyarianto/translate-text-with-google-translate-and-puppeteer
+Info 5    [17:3:56.340] For info: /home/shane/var/smulliga/source/git/sonyarianto/translate-text-with-google-translate-and-puppeteer/google_translate.js :: No config files found.
+Info 6    [17:3:56.345] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 7    [17:4:0.714] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 4369ms
+Err 8     [17:4:1.747] Exception on executing command {"command":"getCodeFixes","seq":29,"type":"request","arguments":{"file":"/home/shane/var/smulliga/source/git/sonyarianto/translate-text-with-google-translate-and-puppeteer/google_translate.js","startLine":1,"startOffset":1,"endLine":1,"endOffset":1,"errorCodes":[7016]}}:
+
+    Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+
+    Error: Debug Failure. Invalid cast. The supplied value [object Object] did not pass the test 'isStringLiteral'.
+        at Object.cast (/usr/local/lib/node_modules/typescript/lib/tsserver.js:1338:22)
+        at tryGetImportedPackageName (/usr/local/lib/node_modules/typescript/lib/tsserver.js:111978:33)
+        at Object.getCodeActions (/usr/local/lib/node_modules/typescript/lib/tsserver.js:111855:35)
+        at /usr/local/lib/node_modules/typescript/lib/tsserver.js:108638:121
+        at Object.flatMap (/usr/local/lib/node_modules/typescript/lib/tsserver.js:504:25)
+        at Object.getFixes (/usr/local/lib/node_modules/typescript/lib/tsserver.js:108638:23)
+        at /usr/local/lib/node_modules/typescript/lib/tsserver.js:117737:35
+        at Object.flatMap (/usr/local/lib/node_modules/typescript/lib/tsserver.js:504:25)
+        at Object.getCodeFixesAtPosition (/usr/local/lib/node_modules/typescript/lib/tsserver.js:117735:23)
+        at IOSession.Session.getCodeFixes (/usr/local/lib/node_modules/typescript/lib/tsserver.js:125655:64)
+        at Session.handlers.ts.createMapFromTemplate._a.<computed> (/usr/local/lib/node_modules/typescript/lib/tsserver.js:124461:61)
+        at /usr/local/lib/node_modules/typescript/lib/tsserver.js:125824:88
+        at IOSession.Session.executeWithRequestId (/usr/local/lib/node_modules/typescript/lib/tsserver.js:125815:28)
+        at IOSession.Session.executeCommand (/usr/local/lib/node_modules/typescript/lib/tsserver.js:125824:33)
+        at IOSession.Session.onMessage (/usr/local/lib/node_modules/typescript/lib/tsserver.js:125846:35)
+        at Interface.<anonymous> (/usr/local/lib/node_modules/typescript/lib/tsserver.js:127106:27)
+        at Interface.emit (events.js:315:20)
+        at Interface._onLine (readline.js:329:10)
+        at Interface._normalWrite (readline.js:474:12)
+        at Socket.ondata (readline.js:186:10)
+        at Socket.emit (events.js:315:20)
+        at addChunk (_stream_readable.js:295:12)
+        at readableAddChunk (_stream_readable.js:271:9)
+        at Socket.Readable.push (_stream_readable.js:212:10)
+        at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+Info 9    [17:4:2.632] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 10   [17:4:2.719] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: true Elapsed: 87ms
+Info 11   [17:4:2.720] Structure before ensureProjectForOpenFiles:
+Info 12   [17:4:2.720] Structure after ensureProjectForOpenFiles:
+Info 13   [17:4:2.720] got projects updated in background, updating diagnostics for /home/shane/var/smulliga/source/git/sonyarianto/translate-text-with-google-translate-and-puppeteer/google_translate.js
+Info 14   [17:4:2.825] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 15   [17:4:2.850] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 3 structureChanged: true Elapsed: 25ms
+Info 16   [17:4:3.205] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 17   [17:4:3.210] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 4 structureChanged: false Elapsed: 5ms
+Info 18   [17:4:3.211] Structure before ensureProjectForOpenFiles:
+Info 19   [17:4:3.211] Structure after ensureProjectForOpenFiles:
+Info 20   [17:4:3.211] got projects updated in background, updating diagnostics for /home/shane/var/smulliga/source/git/sonyarianto/translate-text-with-google-translate-and-puppeteer/google_translate.js
+Info 21   [17:4:12.646] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 22   [17:4:12.669] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false Elapsed: 23ms
