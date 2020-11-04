@@ -50,3 +50,16 @@ Info 19   [17:4:3.211] Structure after ensureProjectForOpenFiles:
 Info 20   [17:4:3.211] got projects updated in background, updating diagnostics for /home/shane/var/smulliga/source/git/sonyarianto/translate-text-with-google-translate-and-puppeteer/google_translate.js
 Info 21   [17:4:12.646] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
 Info 22   [17:4:12.669] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 5 structureChanged: false Elapsed: 23ms
+Info 23   [17:4:13.677] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 24   [17:4:13.688] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 6 structureChanged: false Elapsed: 11ms
+Info 25   [17:4:13.974] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 26   [17:4:13.990] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 7 structureChanged: false Elapsed: 16ms
+Info 27   [17:4:14.199] Search path: /home/shane/var/smulliga/source/git/sonyarianto/translate-text-with-google-translate-and-puppeteer
+Info 28   [17:4:14.200] For info: /home/shane/var/smulliga/source/git/sonyarianto/translate-text-with-google-translate-and-puppeteer/google_translate.js :: No config files found.
+Info 29   [17:4:14.200] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 30   [17:4:14.254] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 8 structureChanged: false Elapsed: 54ms
+Info 31   [17:4:14.401] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 32   [17:4:14.406] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 9 structureChanged: false Elapsed: 5ms
+Info 33   [17:4:14.608] Structure before ensureProjectForOpenFiles:
+Info 34   [17:4:14.608] Structure after ensureProjectForOpenFiles:
+Info 35   [17:4:14.608] got projects updated in background, updating diagnostics for /home/shane/var/smulliga/source/git/sonyarianto/translate-text-with-google-translate-and-puppeteer/google_translate.js

@@ -131,3 +131,12 @@ found 0 vulnerabilities
     {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
 [17:4:2.954] Response has been sent.
 [17:4:2.954] No new typings were requested as a result of typings discovery
+[17:4:14.356] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/local/lib/node_modules/typescript/lib/lib.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/local/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/shane/var/smulliga/source/git/sonyarianto/translate-text-with-google-translate-and-puppeteer/google_translate.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/shane/var/smulliga/source/git/sonyarianto/translate-text-with-google-translate-and-puppeteer","kind":"discover"}
+[17:4:14.356] Explicitly included types: []
+[17:4:14.357] Inferred typings from unresolved imports: []
+[17:4:14.357] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/shane/var/smulliga/source/git/sonyarianto/translate-text-with-google-translate-and-puppeteer/bower_components","/home/shane/var/smulliga/source/git/sonyarianto/translate-text-with-google-translate-and-puppeteer/node_modules"]}
+[17:4:14.357] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/shane/var/smulliga/source/git/sonyarianto/translate-text-with-google-translate-and-puppeteer/bower_components","/home/shane/var/smulliga/source/git/sonyarianto/translate-text-with-google-translate-and-puppeteer/node_modules"]}
+[17:4:14.357] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[17:4:14.357] Response has been sent.
+[17:4:14.357] No new typings were requested as a result of typings discovery
